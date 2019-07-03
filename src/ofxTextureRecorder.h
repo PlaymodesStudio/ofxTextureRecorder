@@ -80,6 +80,7 @@ public:
 		}
 	}
 
+    void setFolderPath(string path){folderPath = path;};
 	uint64_t getAvgTimeGpuDownload() const;
 	uint64_t getAvgTimeEncode() const;
 	uint64_t getAvgTimeSave() const;
